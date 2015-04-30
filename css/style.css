@@ -450,3 +450,14 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.main {
+  background-color: #ffffff;
+  width: 1000px;
+  height: 600px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -301px 0 0 -500px;
+}
