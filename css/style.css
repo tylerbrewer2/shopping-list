@@ -437,20 +437,21 @@ th {
 */
 html {
   -webkit-font-smoothing: antialiased;
-}
-div {
-  border: 1px solid black;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  background: url(../images/background.jpeg) no-repeat center center fixed; 
+    background: url(../images/background.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+div {
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+}
 .main {
   background-color: #ffffff;
   width: 1000px;
@@ -460,4 +461,45 @@ html {
   top: 50%;
   left: 50%;
   margin: -301px 0 0 -500px;
+}
+.what-do-you-need {
+  float: left;
+  margin-right: 20px;
+}
+.input {
+  float: left;
+  color: LightGray;
+  border: solid 1px LightGray;
+  padding: 0px 10px 0px 10px;
+  margin-right: 20px
+}
+.button {
+  text-align: center;
+  color: #ffffff;
+  float: left;
+  width: 102px;
+  background-color: red;
+  margin-right: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 50px;
+  border-radius: 12px;
+}
+.button:last-child {
+  margin-right: 0px;
+}
+.items {
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.box {
+  float: left;
+  width: 300px;
+  height: 168px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.box h4 {
+  margin-top: 30px;
 }
