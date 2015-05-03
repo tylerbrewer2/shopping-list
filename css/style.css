@@ -499,10 +499,8 @@ h2 {
   margin-bottom: 15px;
   height: 32px;
   border-radius: 6px;
-  transition: margin-top .5s ease;
 }
 .button div:hover {
-  margin-top: 10px;
   cursor: pointer;
 }
 .button div p {
